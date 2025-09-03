@@ -14,7 +14,7 @@ public struct Constants {
 
     public static let standardCornerRadius = 3.0
     public static let buttonHeight = 56.0
-    public static let closeButtonSize: CGFloat = 36.0
+    public static let closeButtonSize = 36.0
 
     public static let extraExtraSmallMargin = 4.0
     public static let extraSmallMargin = 8.0
