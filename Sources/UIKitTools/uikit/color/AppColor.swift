@@ -14,17 +14,17 @@ import UIKit
 
 public class AppColor {
     
-    static var primary = UIColor.black
-    static var textPrimary = UIColor.darkText
-    static var textSecondary = UIColor.lightText
-    static var container = UIColor.gray
-    static var containerLight = UIColor.lightGray
-    static var outline = UIColor.separator
-    static var onPrimary = UIColor.white
-    static var surface = UIColor.white
-    static var error = UIColor.red
+    public static var primary = UIColor.black
+    public static var textPrimary = UIColor.darkText
+    public static var textSecondary = UIColor.lightText
+    public static var container = UIColor.gray
+    public static var containerLight = UIColor.lightGray
+    public static var outline = UIColor.separator
+    public static var onPrimary = UIColor.white
+    public static var surface = UIColor.white
+    public static var error = UIColor.red
     
-    static func initialize(
+    public static func initialize(
         primary: UIColor = UIColor.black,
         textPrimary: UIColor = UIColor.darkText,
         textSecondary: UIColor = UIColor.lightText,

@@ -75,13 +75,13 @@ let customFonts: [UIFont.TextStyle: UIFont] = [
 
 extension UIFont {
     
-    class func scalingFont(forTextStyle style: UIFont.TextStyle) -> UIFont {
+    public class func scalingFont(forTextStyle style: UIFont.TextStyle) -> UIFont {
         let customFont = customFonts[style]!
         let metrics = UIFontMetrics(forTextStyle: style)
         return metrics.scaledFont(for: customFont)
     }
     
-    class func nonScalingFont(forTextStyle style: UIFont.TextStyle) -> UIFont {
+    public class func nonScalingFont(forTextStyle style: UIFont.TextStyle) -> UIFont {
         return customFonts[style]!
     }
     

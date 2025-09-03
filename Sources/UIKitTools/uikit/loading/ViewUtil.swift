@@ -12,7 +12,7 @@ public class ViewUtil {
     static private let loadingView = LoadingView()
     
     @MainActor
-    static func startLoading(
+    public static func startLoading(
         parent: UIViewController,
         isTransparent: Bool = true,
         durationMillis: Double? = nil
@@ -31,14 +31,14 @@ public class ViewUtil {
     }
     
     @MainActor
-    static func stopLoading() {
+    public static func stopLoading() {
         DispatchQueue.main.async {
             loadingView.removeFromSuperview()
         }
     }
     
     @MainActor
-    static func stopLoading(afterMillis: Double) {
+    public static func stopLoading(afterMillis: Double) {
         DispatchQueue.main.asyncAfter(deadline: .now() + (afterMillis / 1000)) {
             loadingView.removeFromSuperview()
         }

@@ -9,7 +9,7 @@ import UIKit
 
 public class AlertService {
     
-    static func displayAlert(
+    public static func displayAlert(
         title: String,
         message: String,
         presenter: UIViewController,
@@ -27,7 +27,7 @@ public class AlertService {
         }
     }
     
-    static func displayConfirmation(
+    public static func displayConfirmation(
         title: String,
         message: String,
         cancelText: String = "Cancel",
@@ -48,7 +48,7 @@ public class AlertService {
         }
     }
     
-    static func displayActionSheet(
+    public static func displayActionSheet(
         title: String,
         message: String,
         actions: [UIAlertAction],

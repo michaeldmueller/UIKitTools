@@ -9,7 +9,7 @@ import UIKit
 
 public struct DeclarativeViews {
     
-    static func stackView(
+    public static func stackView(
         axis: NSLayoutConstraint.Axis = .vertical,
         distribution: UIStackView.Distribution = .fill,
         alignment: UIStackView.Alignment = .fill,
@@ -25,7 +25,7 @@ public struct DeclarativeViews {
         )
     }
     
-    static func stackView(
+    public static func stackView(
         axis: NSLayoutConstraint.Axis = .vertical,
         distribution: UIStackView.Distribution = .fill,
         alignment: UIStackView.Alignment = .fill,
@@ -46,7 +46,7 @@ public struct DeclarativeViews {
         return sv
     }
     
-    static func separator() -> UIView {
+    public static func separator() -> UIView {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
         
@@ -59,7 +59,7 @@ public struct DeclarativeViews {
         return view
     }
     
-    static func symbolImageView(
+    public static func symbolImageView(
         image: UIImage?,
         tintColor: UIColor = UIColor.black
     ) -> UIImageView {
@@ -71,7 +71,7 @@ public struct DeclarativeViews {
         return iv
     }
     
-    static func label(
+    public static func label(
         text: String? = nil,
         font: UIFont = UIFont.scalingFont(forTextStyle: .body),
         textColor: UIColor = AppColor.textPrimary,
@@ -89,7 +89,7 @@ public struct DeclarativeViews {
         return label
     }
     
-    static func view() -> UIView {
+    public static func view() -> UIView {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
