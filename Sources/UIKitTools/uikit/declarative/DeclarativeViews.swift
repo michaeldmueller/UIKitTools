@@ -7,7 +7,7 @@
 
 import UIKit
 
-struct DeclarativeViews {
+public struct DeclarativeViews {
     
     static func stackView(
         axis: NSLayoutConstraint.Axis = .vertical,

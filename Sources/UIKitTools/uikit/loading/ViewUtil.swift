@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewUtil {
+public class ViewUtil {
     
     static private let loadingView = LoadingView()
     

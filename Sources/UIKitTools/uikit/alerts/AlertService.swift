@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AlertService {
+public class AlertService {
     
     static func displayAlert(
         title: String,

@@ -12,7 +12,7 @@
 
 import UIKit
 
-class AppColor {
+public class AppColor {
     
     static var primary = UIColor.black
     static var textPrimary = UIColor.darkText
