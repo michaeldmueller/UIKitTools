@@ -12,7 +12,7 @@ public struct Constants {
     public static let mediumImpact = 0.5
     public static let highImpact = 1.0
 
-    public static let standardCornerRadius = 3.0
+    public static let standardCornerRadius = 8.0
     public static let buttonHeight = 56.0
     public static let closeButtonSize = 36.0
 
