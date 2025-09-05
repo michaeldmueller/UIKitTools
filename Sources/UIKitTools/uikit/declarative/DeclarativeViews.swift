@@ -30,7 +30,7 @@ public struct DeclarativeViews {
         distribution: UIStackView.Distribution = .fill,
         alignment: UIStackView.Alignment = .fill,
         spacing: Double = Constants.smallMargin,
-        arrangedSubviews: [UIView]
+        arrangedSubviews: [UIView] = []
     ) -> UIStackView {
         let sv = UIStackView()
         sv.translatesAutoresizingMaskIntoConstraints = false
