@@ -6,7 +6,7 @@
 //
 
 import Foundation
-internal import SwiftyBeaver
+import SwiftyBeaver
 
 class LoggingService {
     
